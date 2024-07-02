@@ -1,0 +1,180 @@
+*{
+    max-width: 100%;
+}
+#home{
+    position: relative;
+    height: 535px;
+    max-width: 100%;
+    margin: auto;
+    background-image: url('../Assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: start;
+    color: white;
+    padding: 0px 30px 0px 70px;
+}
+#home p{
+    padding-top: 60px;
+}
+
+.btn{
+    width: 150px;
+    height:40px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: auto;
+}
+.btn:hover{
+    background: transparent;
+}
+.social-media{
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+.social-media h6{
+    font-size: 23px;
+}
+.social-icons{
+    display: flex;
+}
+.social-icons .icon{
+    margin-right: 15px;
+}
+.social-icons .icon:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease .5s all;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+    background: blue;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+.image img{
+    border-radius: 30px;
+}
+
+/*about section*/
+#About{
+    padding-top: 30px;
+    margin-left: 90px;
+}
+#About p{
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
+.about-div{
+    display: block;
+    width: 200px;
+    height: 230px;
+    background: #312d6f;
+    border-radius: 10px;
+}
+.about-div h5{
+    padding-top: 70px;
+    color: white;
+}
+.about-img img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+/*work section*/
+#Work{
+    max-width: 100%;
+    background: #281c45;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px 30px 20px 70px;
+    color: white;
+    margin-top: 50px;
+}
+.work-div{
+    width: 252px;
+    height: 300px;
+    background: #312d6f;
+    margin-top: 40px;
+}
+.work-div h5, h6{
+    color: white;
+}
+.work-div p{
+    color: #e3dcdc;
+}
+.work-img img{
+    width: 250px;
+    height: 150px;
+}
+
+/*Contact*/
+#Contact{
+    max-width: 100%;
+    background: #352657;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px 30px 20px 70px;
+
+}
+.contact-info{
+    width: 500px;
+    margin-top: 70px;
+    background: #312d6f;
+    color: white;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.contact-info .contact-title{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.contact-info h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.contact-info input{
+    width: 240px;
+    border-radius: 5px;
+}
+
+.contact-info textarea{
+    border-radius: 5px;
+}
+.world-map {
+    margin-top: 80px;
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+    overflow: hidden; 
+}
+
+.world-map img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    transform-origin: center center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating-earth {
+    animation: rotate 20s linear infinite;
+}
