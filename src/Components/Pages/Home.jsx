@@ -1,12 +1,12 @@
 import React from 'react';
 import './Home.css'
+import AboutSection from './About';
+
+import SkillSection from './Skills';
 
 import { BsFacebook, BsXLg, BsInstagram, BsLinkedin } from "react-icons/bs";
-import photo from '../Assets/best Image.jpg';
-import react from '../Assets/react.webp'
-import web from '../Assets/web.jpeg'
-import graphic from '../Assets/graphic.jpeg'
-import backend from '../Assets/backend1.jpeg'
+import photo from '../Assets/salad.jpg';
+
 import bloodss from '../Assets/bloodss.png';
 import carsales from '../Assets/carsales.png'
 import foodrest from '../Assets/foodrest.png'
@@ -70,59 +70,11 @@ function Home() {
                     </div>
                 </div>
             </div>
+            {/* About Section */}
+            <AboutSection />
 
-            <div className="container" id='About'>
-                <div className="row">
-                    <h3>Overview</h3>
-                    <p>As a junior software engineer, I bring proficiency in front-end and back-end
-
-                        development technologies, including HTML, CSS, JavaScript, and various
-
-                        programming languages. With hands-on experience in web development
-
-                        frameworks and methodologies, I excel in creating responsive and dynamic
-
-                        web applications. </p>
-
-                    <div className="col-12 col-lg-3 col-md-6 col-sm-12">
-                        <div className="about-div">
-                            <div className="about-img">
-                                <img src={react} alt="" className='img-fluid' />
-                            </div>
-                            <h5>React Developer</h5>
-                        </div>
-
-                    </div>
-                    <div className="col-12 col-lg-3 col-md-6 col-sm-12">
-                        <div className="about-div">
-                            <div className="about-img">
-                                <img src={graphic} alt="" className='img-fluid' />
-                            </div>
-                            <h5>Graphic Designer</h5>
-                        </div>
-
-                    </div>
-                    <div className="col-12 col-lg-3 col-md-6 col-sm-12">
-                        <div className="about-div">
-                            <div className="about-img">
-                                <img src={web} alt="" className='img-fluid' />
-                            </div>
-                            <h5>Web Developer</h5>
-                        </div>
-
-                    </div>
-                    <div className="col-12 col-lg-3 col-md-6 col-sm-12">
-                        <div className="about-div">
-                            <div className="about-img">
-                                <img src={backend} alt="" className='img-fluid' />
-                            </div>
-                            <h5>Backend Developer</h5>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
+            {/* Skills */}
+            <SkillSection/>
 
             <div className="container" id='Work'>
                 <div className="row">

@@ -1,3 +1,4 @@
+
 *{
     max-width: 100%;
 }
@@ -57,63 +58,28 @@
 }
 .image img{
     border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-/*about section*/
-#About{
-    padding-top: 30px;
-    margin-left: 90px;
-}
-#About p{
-    padding: 10px 0px 20px 0px;
-    text-align: center;
-}
-.about-div{
-    display: block;
-    width: 200px;
-    height: 230px;
-    background: #312d6f;
-    border-radius: 10px;
-}
-.about-div h5{
-    padding-top: 70px;
-    color: white;
-}
-.about-img img{
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-    border-radius: 50%;
-}
 
-/*work section*/
-#Work{
-    max-width: 100%;
-    background: #281c45;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 0px 30px 20px 70px;
-    color: white;
-    margin-top: 50px;
+
+/* Work Section */
+#work{
+    margin-top: 3rem;
 }
 .work-div{
-    width: 252px;
-    height: 300px;
-    background: #312d6f;
-    margin-top: 40px;
-}
-.work-div h5, h6{
-    color: white;
-}
-.work-div p{
-    color: #e3dcdc;
-}
-.work-img img{
-    width: 250px;
-    height: 150px;
+    border: 1px solid black;
+    height: 20rem;
+    margin: 2px 0rem 3rem 0rem;
+    box-shadow: .5px .5px  rgba(0, 0, 0.2, .2);
 }
 
+.work-img img{
+    object-fit: cover;
+    padding-bottom: 1rem;
+}
 /*Contact*/
 #Contact{
     max-width: 100%;
@@ -122,7 +88,6 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 0px 30px 20px 70px;
-
 }
 .contact-info{
     width: 500px;
