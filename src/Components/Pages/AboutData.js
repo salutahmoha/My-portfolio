@@ -32,5 +32,6 @@ export const AboutExperienceData = [
     experienceTextYears: "years of Programming",
     experienceTextProjects: "Projects Completed",
     experienceTextClients: "Clients",
+    
   },
 ];
